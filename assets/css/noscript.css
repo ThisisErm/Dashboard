@@ -1,0 +1,29 @@
+/* Wrapper */
+
+	#wrapper {
+		opacity: 1 !important;
+	}
+
+/* Overlay */
+
+	#overlay {
+		opacity: 1 !important;
+	}
+
+/* Header */
+
+	#header {
+		opacity: 1 !important;
+	}
+
+		#header nav li {
+			opacity: 1 !important;
+		}
+
+		.time{
+			position: absolute;
+			color: #FFFFFF;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		  }
