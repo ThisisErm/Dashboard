@@ -49,27 +49,27 @@ updateTime() // Call the function once to display the initial date and time
 
 setInterval(updateTime, 1000) // Call the function every second to update the time
 
-//To-Do List
-let tasks = [];
+// //To-Do List
+// let tasks = [];
 
-function addTask() {
-  const taskInput = document.getElementById("todoInput");
-  const task = taskInput.value.trim();
-  if (task !== "") {
-    tasks.push(task);
-    taskInput.value = "";
-    updateList();
-  }
-}
+// function addTask() {
+//   const taskInput = document.getElementById("todoInput");
+//   const task = taskInput.value.trim();
+//   if (task !== "") {
+//     tasks.push(task);
+//     taskInput.value = "";
+//     updateList();
+//   }
+// }
 
-function updateList() {
-  const todoList = document.getElementById("todoList");
-  todoList.innerHTML = "";
-  tasks.forEach((task) => {
-    const li = document.createElement("li");
-    li.textContent = task;
-    todoList.appendChild(li);
-  });
-}
+// function updateList() {
+//   const todoList = document.getElementById("todoList");
+//   todoList.innerHTML = "";
+//   tasks.forEach((task) => {
+//     const li = document.createElement("li");
+//     li.textContent = task;
+//     todoList.appendChild(li);
+//   });
+// }
 
 
